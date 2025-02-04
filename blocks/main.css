@@ -72,8 +72,24 @@
   max-width: 722px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 26.08px;
   text-align: justify;
   margin: 0;
   padding-bottom: 92px;
+}
+
+/*break point*/
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    font-size: 84px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    max-width: 530px;
+    font-size: 75px;
+    line-height: 79px;
+    padding-bottom: 25px;
+  }
 }
