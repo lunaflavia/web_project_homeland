@@ -1,0 +1,36 @@
+.lead {
+  max-width: 984px;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+
+.lead__title {
+  align-content: center;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 32px;
+}
+
+.lead__subtitle {
+  align-content: center;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 64px;
+}
+
+.lead__image {
+  align-content: center;
+  margin: 0;
+}
+
+.intro__title {
+
+}
