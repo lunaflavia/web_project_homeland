@@ -78,7 +78,6 @@
   padding-bottom: 92px;
 }
 
-/*break point 1024*/
 @media screen and (max-width: 1024px) {
   .lead__title {
     max-width: 625px;
@@ -93,7 +92,6 @@
   }
 }
 
-/* 768 */
 @media screen and (max-width: 768px) {
   .lead__title {
     max-width: 530px;
@@ -123,7 +121,6 @@
   }
 }
 
-/*break point 544*/
 @media screen and (max-width: 544px) {
   .lead {
     padding-top: 70px;
@@ -155,7 +152,6 @@
   }
 }
 
-/* 320 */
 @media screen and (max-width: 320px) {
   .lead {
     padding-top: 50px;
