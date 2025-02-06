@@ -1,4 +1,4 @@
-# Projeto 5: Tripleten Homeland
+# Projeto 5: Tripleten Web Project Homeland
 
 **Tripleten Art Gallery** é uma galeria de arte fictícia que mostra as cidades natais de alguns funcionários da TripleTen. A representação desse espaço web faz parte do quinto projeto do curso de desenvolvimento web da TripleTen.
 
