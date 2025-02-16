@@ -1,0 +1,44 @@
+.places {
+  margin-bottom: 90px;
+}
+
+.place__container {
+}
+
+.place__title {
+  max-width: 460px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: start;
+  padding-bottom: 48px;
+  margin: 0;
+}
+
+.place__image {
+  max-width: 460px;
+  max-height: 460px;
+  display: block;
+  padding-bottom: 48px;
+}
+
+.place__button {
+  max-width: 356.08px;
+  border-radius: 4px;
+  padding: 13px 20px 13px 20px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.78px;
+}
+
+.place__url-heading {
+  max-width: 85.17px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.52px;
+  text-align: start;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  padding-bottom: 8px;
+  margin: 0;
+}
