@@ -1,6 +1,7 @@
 .photo-grid {
+  max-width: 1184px;
+  margin: 0 auto;
   padding-bottom: 92px;
-  position: relative;
 }
 
 .photo-grid__container {
