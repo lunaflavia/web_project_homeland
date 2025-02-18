@@ -65,7 +65,6 @@
 
   .photo-grid__container {
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
   }
 }
 
@@ -79,6 +78,13 @@
   .photo-grid__container {
     grid-template-columns: 1fr;
     gap: 12px;
+  }
+}
+
+/* breakpoint 470px */
+@media screen and (max-width: 470px) {
+  .photo-grid {
+    padding: 0 16px 64px;
   }
 }
 

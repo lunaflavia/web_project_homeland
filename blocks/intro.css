@@ -61,6 +61,10 @@
   .intro__quote {
     max-width: 720px;
   }
+
+  .intro__text {
+    padding-bottom: 64px;
+  }
 }
 
 @media screen and (max-width: 544px) {
@@ -93,6 +97,6 @@
   }
 
   .intro__text {
-    padding-bottom: 64px;
+    padding-bottom: 38px;
   }
 }
