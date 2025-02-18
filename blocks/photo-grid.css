@@ -21,7 +21,7 @@
 }
 
 /* breakpoint 1500px */
-@media screen and (min-width: 1281px) and (max-width: 1500px) {
+@media screen and (max-width: 1500px) {
   .photo-grid {
     max-width: 1400px;
     padding: 0 48px 92px;
@@ -33,7 +33,7 @@
 }
 
 /* breakpoint 1100px */
-@media screen and (min-width: 1000px) and (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
   .photo-grid {
     max-width: 928px;
     padding: 0 24px 88px;
@@ -46,13 +46,12 @@
 }
 
 /* breakpoint 999px */
-@media screen and (min-width: 769px) and (max-width: 999px) {
+@media screen and (max-width: 999px) {
   .photo-grid {
     max-width: 720px;
   }
 
   .photo-grid__container {
-    grid-template-columns: repeat(2, 1fr);
     gap: 16px;
   }
 }
