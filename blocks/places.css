@@ -42,9 +42,13 @@
   border-radius: 4px;
   font-weight: 600;
   font-size: 18px;
+  color: #ffffff;
+  line-height: 21.78px;
   background-color: transparent;
   background-image: linear-gradient(90deg, #0278fe, #003a7b);
   box-shadow: 5px 5px 10px #00000040;
+  text-decoration: none;
+  padding: 13px 20px;
   grid-area: button;
 }
 
@@ -54,14 +58,6 @@
     rgba(2, 120, 254, 0.5),
     rgba(0, 58, 123, 0.5)
   );
-}
-
-.place__link {
-  font-size: 18px;
-  line-height: 21.78px;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 13px 20px;
 }
 
 .place__website {
@@ -160,9 +156,6 @@
 
   .place__button {
     width: 288px;
-  }
-
-  .place__link {
     font-size: 14px;
   }
 }
