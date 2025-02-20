@@ -1,22 +1,32 @@
 .header {
+  display: flex;
   margin: 0 auto;
   width: 254px;
-  padding-top: 34px;
 }
 
 .header__logo {
   width: 100%;
   object-fit: contain;
+  padding-top: 34px;
 }
 
 @media screen and (max-width: 768px) {
-  .header {
+  .header__logo {
     padding-top: 30px;
   }
 }
 
+@media screen and (max-width: 544px) {
+
+  .header__logo {
+    max-width: 188px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+}
+
 @media screen and (max-width: 320px) {
-  .header {
+  .header__logo {
     width: 188px;
     padding-top: 20px;
   }

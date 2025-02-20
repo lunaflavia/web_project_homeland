@@ -1,4 +1,6 @@
 .lead {
+  display: flex;
+  flex-direction: column;
   padding-top: 90px;
 }
 
@@ -25,7 +27,7 @@
 .lead__image {
   max-width: 984px;
   width: 100%;
-  margin: 0;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -77,16 +79,16 @@
   }
 
   .lead__title {
-    max-width: 379px;
-    font-size: 57.5px;
-    line-height: 61.5px;
+    max-width: 258px;
+    font-size: 40px;
+    line-height: 44px;
     padding-bottom: 20.5px;
   }
 
   .lead__subtitle {
-    max-width: 504px;
-    font-size: 23px;
-    line-height: 28px;
+    max-width: 300px;
+    font-size: 18px;
+    line-height: 26px;
     padding-bottom: 35px;
   }
 
