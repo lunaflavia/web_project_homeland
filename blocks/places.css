@@ -4,7 +4,7 @@
   padding-bottom: 90px;
 }
 
-.place__container {
+.places__container {
   max-width: 984px;
   display: grid;
   grid-template-columns: 460px 1fr;
@@ -16,7 +16,7 @@
   padding-top: 80px;
 }
 
-.place__title {
+.places__title {
   max-width: 440px;
   font-weight: 900;
   font-size: 72px;
@@ -25,17 +25,17 @@
   grid-area: title;
 }
 
-.place__image {
+.places__image {
   max-width: 460px;
   box-shadow: 10px 10px 25px #00000080;
   grid-area: image;
 }
 
-.place__image:hover {
+.places__image:hover {
   opacity: 0.5;
 }
 
-.place__button {
+.places__button {
   display: flex;
   width: 356.08px;
   height: 48px;
@@ -52,7 +52,7 @@
   grid-area: button;
 }
 
-.place__button:hover {
+.places__button:hover {
   background-image: linear-gradient(
     90deg,
     rgba(2, 120, 254, 0.5),
@@ -60,30 +60,30 @@
   );
 }
 
-.place__website {
+.places__website {
   align-self: self-end;
   grid-area: website;
 }
 
-.place__url-heading {
+.places__url-heading {
   font-size: 12px;
   line-height: 14.52px;
   text-transform: uppercase;
   color: #aaaaaa;
 }
 
-.place__artist {
+.places__artist {
   font-size: 18px;
   line-height: 22px;
   color: #ffffff;
   margin: 0;
 }
 
-.place__paragraphs {
+.places__paragraphs {
   grid-area: paragraphs;
 }
 
-.place__paragraph {
+.places__paragraph {
   font-size: 18px;
   line-height: 29.34px;
   margin: 0 0 25px;
@@ -91,20 +91,20 @@
 
 /* breakpoint 1024px */
 @media screen and (max-width: 1024px) {
-  .place__container {
+  .places__container {
     grid-template-columns: 368px 1fr;
     grid-template-rows: 92px 340px 1fr;
     gap: 48px 28px;
     padding: 50px 24px 0;
   }
 
-  .place__title {
+  .places__title {
     font-size: 42px;
     line-height: 46px;
     align-self: self-end;
   }
 
-  .place__image {
+  .places__image {
     max-width: 368px;
     grid-area: image;
   }
@@ -116,17 +116,17 @@
     padding-top: 0;
   }
 
-  .place__container {
+  .places__container {
     grid-template-columns: 340px 1fr;
     grid-template-rows: 92px 340px 1fr;
   }
 
-  .place__image {
+  .places__image {
     max-width: 340px;
     grid-area: image;
   }
 
-  .place__paragraph {
+  .places__paragraph {
     font-size: 16px;
     line-height: 26px;
     margin: 0;
@@ -135,7 +135,7 @@
 
 /* breakpoint 544px */
 @media screen and (max-width: 544px) {
-  .place__container {
+  .places__container {
     max-width: 320px;
     display: grid;
     grid-template-columns: 100%;
@@ -149,12 +149,12 @@
     gap: 30px;
   }
 
-  .place__title {
+  .places__title {
     font-size: 32px;
     line-height: 35px;
   }
 
-  .place__button {
+  .places__button {
     width: 288px;
     font-size: 14px;
   }
@@ -166,11 +166,11 @@
     padding-bottom: 65px;
   }
 
-  .place__container {
+  .places__container {
     padding: 50px 0 0;
   }
 
-  .place__image {
+  .places__image {
     max-width: 100%;
   }
 }
